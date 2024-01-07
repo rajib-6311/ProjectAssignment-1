@@ -39,4 +39,37 @@ body{
     height: 300px;
     width: 400px;
 }
-/* main part below */
+/* main image part below */
+.main-back-img{
+    background: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 550px;
+    margin: 50px 90px; 
+}
+.main-text{
+    width: 50%;
+    padding: 80px 80px;
+
+}
+#join-text{
+    font-size:2;
+}
+
+/* main-text-part */
+.main-text-part{
+    padding-top: 50px;
+    background-color: bisque;
+    margin: 50px 90px;
+    text-align: center;
+}
+.join-btn{
+    background-color: red;
+    margin-bottom: 40px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px; 
+}
