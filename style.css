@@ -1,3 +1,42 @@
-h1{
+
+/* common sherd style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header part  */
+.header-img{
+    background:url('resources/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 550px;
+    margin: 50px 90px;   
+}
+/* Header text */
+.header-text{
+    text-align: center;
+    padding: 150px;
+}
+.header-text1{
+    color: white;
+}
+.header-text2{
+    color: white;
+   font-size: 40px;   
+}
+/* header-text-part2 */
+.header-text-part2{
+    text-align: center;
+}
+.text-1{
+    color: red;
+    font-size: 50px;
+}
+.text-2{
     color: red;
 }
+.header-img-2 img{
+    height: 300px;
+    width: 400px;
+}
+/* main part below */
