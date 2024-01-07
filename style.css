@@ -73,3 +73,34 @@ body{
     width: 90px;
     border-radius: 5px; 
 }
+
+/* NEW BEST OFFER part */
+.main-best-offer{
+    display: flex;
+    align-items: center;
+}
+.offer-text-1{
+    margin: 50px 90px;
+    width: 25%;
+}
+
+/* New offer image part */
+.offer-img{
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 5000px;
+   
+}
+.offer-img img{
+    height: 250px;
+    padding: 20px;
+}
+/* Offer right side image */
+.offer-text-right img{
+    height: 100px;
+    width: 100px;
+}
+.offer-text-right{
+   padding: 90px;
+}
