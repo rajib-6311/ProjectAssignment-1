@@ -104,3 +104,45 @@ body{
 .offer-text-right{
    padding: 90px;
 }
+
+/* main photos added part */
+.main-photo-part{
+    margin: 50px 90px;
+
+}
+.img-align{
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;  
+}
+/* Subscriptions part added */
+.subscriptions-part{
+    margin: 50px 90px;
+    background-color: bisque;
+
+}
+.subsripe-img{
+    padding-left: 500px;
+}
+.subscroptions-text{
+    text-align: center;
+}
+/* footer */
+.footer-bg{
+    background-color: black;
+    margin: 0px;
+}
+.footer-text{
+    color: white;
+}
+.footer-align{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px;
+}
+hr{
+    background-color: white;
+}
+
+
