@@ -41,7 +41,7 @@ body{
 }
 /* main image part below */
 .main-back-img{
-    background: url('resources/Vectorrr.png');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
@@ -120,6 +120,7 @@ body{
 .subscriptions-part{
     margin: 50px 90px;
     background-color: bisque;
+    height: 350px;
 
 }
 .subsripe-img{
@@ -127,6 +128,20 @@ body{
 }
 .subscroptions-text{
     text-align: center;
+}
+
+#input-subs{
+    height: 30px;
+    width: 200px;
+    
+}
+#btn-sub{
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
 }
 /* footer */
 .footer-bg{
@@ -144,5 +159,19 @@ body{
 hr{
     background-color: white;
 }
+/* Footer logo */
+.footer-logo{
+    display: flex;
+    padding-left: 600px;
+  
+   
+}
 
-
+/* last part */
+.last-text{
+    color: white;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+}
