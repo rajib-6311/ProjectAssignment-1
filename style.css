@@ -175,3 +175,7 @@ hr{
     display: flex;
     justify-content: space-between;
 }
+.last-text{
+    padding-top: 30px;
+    padding: 0px 50px;
+}
